@@ -72,7 +72,7 @@ module "elb_http" {
 
 ## Examples
 
-* [Complete ELB example](https://github.com/terraform-aws-modules/terraform-aws-elb/tree/master/examples/complete)
+* [Complete ELB example]https://github.com/tyhuynh123/tydemo/tree/master/examples/complete)
 
 ## Note about SSL
 
@@ -115,7 +115,7 @@ module "elb_http" {
 
 ## Authors
 
-Module managed by [Anton Babenko](https://github.com/antonbabenko).
+Module managed by [Ty Huynh](https://github.com/tyhuynh123).
 
 ## License
 
