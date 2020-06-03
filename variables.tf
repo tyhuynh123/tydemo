@@ -83,3 +83,8 @@ variable "instances" {
   type        = list(string)
   default     = []
 }
+
+variable "aws_key" {
+type          = string 
+default       = dev
+}
