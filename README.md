@@ -1,5 +1,5 @@
 Instuction for bringing up environment in AWS with an ELB 
 
-Please clone this Repo and CD examples/complete
+Please CD examples/complete
 
 
