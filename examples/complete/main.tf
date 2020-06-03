@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "eu-west-1"
+  region = "us-west-2"
 }
 
 variable "number_of_instances" {
@@ -140,9 +140,10 @@ module "ec2_instances" {
   instance_count = var.number_of_instances
 
   name                        = "my-app"
-  ami                         = "ami-ebd02392"
+  ami                         = "ami-003634241a8fcdec0"
   instance_type               = "t2.micro"
   vpc_security_group_ids      = [data.aws_security_group.default.id]
   subnet_id                   = element(tolist(data.aws_subnet_ids.all.ids), 0)
   associate_public_ip_address = true
+  key_name = var.aws_key
 }
