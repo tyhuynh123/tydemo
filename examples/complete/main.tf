@@ -145,5 +145,4 @@ module "ec2_instances" {
   vpc_security_group_ids      = [data.aws_security_group.default.id]
   subnet_id                   = element(tolist(data.aws_subnet_ids.all.ids), 0)
   associate_public_ip_address = true
-  key_name = var.aws_key
 }
